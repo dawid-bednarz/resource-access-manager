@@ -1,0 +1,27 @@
+{
+  "name": "daweb/resource_access_manager",
+  "description": "atomic global blocking access to resources",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dawid Bednarz",
+      "email": "dawid@progresscode.pl"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "daweb\\ResourceAccessManager\\": "src/"
+    }
+  },
+  "required": {
+    "php": "^7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "daweb\\ResourceAccessManager\\Tests\\": "tests/"
+    }
+  }
+}
